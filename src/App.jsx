@@ -1,11 +1,21 @@
-import './App.css'
+import CTA from "./components/CTA"
+import Feature from "./components/Feature"
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+import HeroSection from "./components/HeroSection"
+import Operations from "./components/Operations"
+import Testimonial from "./components/Testimonial"
 
 const App = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-      </h1>
+      <Header />
+      <HeroSection />
+      <Feature />
+      <Operations />
+      <Testimonial />
+      <CTA />
+      <Footer />
     </div>
   )
 }
