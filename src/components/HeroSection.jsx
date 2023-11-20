@@ -3,10 +3,10 @@ import Heroimg from '../assets/hero.png'
 
 const HeroSection = () => {
   return (
-    <div className='bg-[#f3f3f3]'>
+    <div className='bg-[#f3f3f3] transition-all duration-500'>
         <div class="grid max-w-screen-xl px-6 lg:px-8 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
             <div class="mr-auto place-self-center lg:col-span-7">
-                <h1 class="max-w-2xl mb-4 text-4xl font-bold leading-none md:text-5xl xl:text-6xl">When <span className='bg-green-500'>banking</span> meets minimalist</h1>
+                <h1 class="max-w-2xl mb-4 text-4xl font-bold leading-none md:text-5xl xl:text-6xl">When <span className=' bg-gradient-to-r from-green-400 to-green-600 ml-2'>banking</span> meets minimalist</h1>
                 <p class="max-w-2xl mb-6 font-normal text-gray-500 lg:mb-4 md:text-lg lg:text-xl">A simpler banking experience for a simpler life</p>
                 <a href="#" class="inline-flex items-center justify-center py-2 mr-3 text-base font-medium text-center text-green-700 border-b border-green-700">
                 Learn more

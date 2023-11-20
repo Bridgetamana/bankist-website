@@ -5,7 +5,7 @@ import Card from '../assets/card.jpg'
 
 const Feature = () => {
   return (
-    <div className='border-t border-solid border-gray-300 transition-transform duration-1000 bg-[#f3f3f3]' id='features'>
+    <div className='border-t border-solid border-gray-300 transition-transform duration-500 bg-[#f3f3f3]' id='features'>
         <div className='flex flex-col items-center my-16 mx-12 lg:mx-0'>
             <span>
                 <h1 className='text-start uppercase text-xl md:text-2xl font-semibold text-green-500 mb-4 '>Features</h1>
